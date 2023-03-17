@@ -3,7 +3,7 @@ import cv2
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 img = cv2.imread(
-    "C:\all files\projects\python\20 projects\python face detection\divipavansaiphoto.jpg")
+    "C:\all files\projects\python\20 projects\python face detection\est1.jpg")
 
 if (img is not None):
     grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
